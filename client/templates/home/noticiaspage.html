@@ -1,0 +1,144 @@
+<template name="noticiasPage">
+    <!--banner-->
+    <div class="banner">
+
+    <!--    <script src="/javascripts/responsiveslides.min.js"></script>
+        <script>
+            $(function () {
+                $("#slider").responsiveSlides({
+                    auto: false,
+                    nav: true,
+                    speed: 500,
+                    namespace: "callbacks",
+                    pager: true,
+                });
+            });
+        </script>-->
+
+        <div class="slider">
+            <div class="callbacks_container">
+                <ul class="rslides" id="slider">
+
+                    <li>
+                        <div class="banner1"
+                             style="background: url('https://content.halocdn.com/media/Default/games/halo-3/media/h3_010-68adc78167c54528b438982a40ff04a7.jpg') no-repeat 0px 0px; ">
+                            <div class="banner-grids">
+                                <div class="banner-text">
+
+                                    <div class="info-box-slide info-box bg-yellow">
+                                            <span class="info-box-icon"><i
+                                                    class="ion ion-ios-pricetag-outline"></i></span>
+                                        <div class="info-box-content">
+                                            <span class="info-box-text">Noticia 2</span>
+                                        </div><!-- /.info-box-content -->
+                                    </div>
+
+                                    <div class="bnr-info">
+                                        <h1> Noticia 2</h1>
+                                        <p>Noticia 2</p>
+                                        <a href='/noticia2'>Leia mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="banner1"
+                             style="background: url('https://content.halocdn.com/media/Default/games/halo-3/media/h3_010-68adc78167c54528b438982a40ff04a7.jpg') no-repeat 0px 0px; ">
+                            <div class="banner-grids">
+                                <div class="banner-text">
+
+                                    <div class="info-box-slide info-box bg-yellow">
+                                            <span class="info-box-icon"><i
+                                                    class="ion ion-ios-pricetag-outline"></i></span>
+                                        <div class="info-box-content">
+                                            <span class="info-box-text">Noticia 2</span>
+                                        </div><!-- /.info-box-content -->
+                                    </div>
+
+                                    <div class="bnr-info">
+                                        <h1> Noticia 2</h1>
+                                        <p>Noticia 2</p>
+                                        <a href='/noticia2'>Leia mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!--content-->
+    <div class="content">
+        <!-- Conteúdo do Blog -->
+        <div class="content-left">
+            <!-- Inicio Lista de Notícias -->
+
+            {{#each noticias}}
+
+                <div class="sec_1">
+                    <div class="sec_1 grids">
+                        <div class="post6">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="{{img}}"
+                                    class="img-responsive post6-pic-img" alt="">
+                                </div>
+
+                                <div class=" col-md-6 post6-pic-info">
+
+                                    <div class="info-box bg-yellow">
+                                        <span class="info-box-icon"><i class="ion ion-ios-pricetag-outline"></i></span>
+                                        <div class="info-box-content">
+                                            <span class="info-box-text">{{category}}</span>
+                                        </div><!-- /.info-box-content -->
+                                    </div>
+
+                                    <h3><a href='/noticia/{{_id}}'>{{title}}</a></h3>
+                                    <p>{{sub_title}}</p>
+                                    <div class="comments cmnt3">
+                                        <ul>
+                                            <li><a href='/gostei/{{_id}}'><span
+                                                    class="gostei glyphicon glyphicon-thumbs-up"
+                                                    aria-hidden="true"></span> {{gostei}}
+                                            </a>
+                                            </li>
+                                            <li><a href='/ngostei/{{_id}}'><span
+                                                    class="gostei glyphicon glyphicon-thumbs-down"
+                                                    aria-hidden="true"></span> {{nao_gostei}}
+                                            </a>
+                                            </li>
+                                            <li><a href="#"><span class="glyphicon glyphicon-comment"
+                                                                  aria-hidden="true"></span> {{comments.length}}
+                                            </a>
+                                            </li>
+                                            <li><span class="glyphicon glyphicon-eye-open"
+                                                      aria-hidden="true"></span> {{numero_clicks}}
+                                            </li>
+                                            <li><span class="glyphicon glyphicon-time"
+                                                      aria-hidden="true"></span>{{date}}
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <br/>
+                    </div>
+                </div>
+            {{/each}}
+            <!-- Fim Lista de Notícias -->
+        </div>
+        <!-- Fim Conteúdo do Blog -->
+
+    </div>
+
+</template>
+

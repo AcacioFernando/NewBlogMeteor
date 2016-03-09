@@ -1,0 +1,21 @@
+<template name="layoutTamplate">
+
+    <div id="main">
+        <div class="conteudo">
+            <div class="container">
+                <header>
+                    {{> header}}
+                </header>
+
+                {{> yield}}
+
+                {{> menuPage}}
+            </div>
+        </div>
+        {{! Also a sidebar! }}
+        <footer>
+            {{> footer}}
+        </footer>
+    </div>
+
+</template>
