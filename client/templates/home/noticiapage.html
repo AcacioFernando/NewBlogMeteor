@@ -15,6 +15,7 @@
                                     <span class="info-box-icon"><i class="ion ion-ios-pricetag-outline"></i></span>
                                     <div class="info-box-content">
                                         <span class="info-box-text">{{category}}</span>
+
                                     </div>
                                 </div>
 
@@ -32,12 +33,12 @@
 
                             <div class="comments cmnt3">
                                 <ul>
-                                    <li><a href ng-click="gosteiNoticia(noticia._id)"> <span
+                                    <li><a class="js-gostei"> <span
                                             class="gostei glyphicon glyphicon-thumbs-up"
                                             aria-hidden="true"></span>{{gostei}}
                                     </a>
                                     </li>
-                                    <li><a href ng-click="naoGosteiNoticia(noticia._id)"><span
+                                    <li><a class="js-nao-gostei"><span
                                             class="gostei glyphicon glyphicon-thumbs-down"
                                             aria-hidden="true"></span>{{nao_gostei}}
                                     </a>
@@ -61,7 +62,7 @@
                     <div class="row">
                         <div class=" col-md-12">
                             <div id="noticiaConteudo" class="conteudo_noticia">
-                                {{content}}
+                                {{{content}}}
                             </div>
                         </div>
                     </div>
@@ -77,37 +78,38 @@
 
 
                                     <div>
-
-                                        <article class="row">
-                                            <div class="col-md-2 col-sm-2 hidden-xs">
-                                                <figure class="thumbnail">
-                                                    <img class="img-responsive"
-                                                         src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg"/>
-                                                    <figcaption class="text-center">comentario.name</figcaption>
-                                                </figure>
-                                            </div>
-                                            <div class="col-md-10 col-sm-10">
-                                                <div class="panel panel-default arrow left">
-                                                    <div class="panel-body">
-                                                        <header class="text-left">
-                                                            <div class="comment-user"><i class="fa fa-user"></i>
-                                                                comentario.name
+                                        {{#each comments}}
+                                            <article class="row">
+                                                <div class="col-md-2 col-sm-2 hidden-xs">
+                                                    <figure class="thumbnail">
+                                                        <img class="img-responsive"
+                                                             src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg"/>
+                                                        <figcaption class="text-center">{{name}}</figcaption>
+                                                    </figure>
+                                                </div>
+                                                <div class="col-md-10 col-sm-10">
+                                                    <div class="panel panel-default arrow left">
+                                                        <div class="panel-body">
+                                                            <header class="text-left">
+                                                                <div class="comment-user"><i class="fa fa-user"></i>
+                                                                    {{name}}
+                                                                </div>
+                                                                <time class="comment-date"
+                                                                      datetime="16-12-2014 01:05">
+                                                                    <i class="fa fa-clock-o"></i>{{date}}
+                                                                </time>
+                                                            </header>
+                                                            <div class="comment-post">
+                                                                <p>
+                                                                    {{comment}}
+                                                                </p>
                                                             </div>
-                                                            <time class="comment-date" datetime="16-12-2014 01:05"><i
-                                                                    class="fa fa-clock-o"></i>comentario.date
-                                                            </time>
-                                                        </header>
-                                                        <div class="comment-post">
-                                                            <p>
-                                                                comentario.comment
-                                                            </p>
-                                                        </div>
 
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </article>
-
+                                            </article>
+                                        {{/each }}
 
 
                                     </div>
@@ -118,10 +120,10 @@
                                             <icon class=" balao-comentario glyphicon glyphicon-comment"></icon>
                                             Deixe seu comentário:
                                         </h3>
-                                        <form>
+                                        <form class="js-comentario">
                                             <div class="row">
                                                 <div class="col-md-12 form-group">
-                                                    <input id="userComentario"
+                                                    <input id="userComentario" name="userComentario"
                                                            placeholder="Digite seu nome" type="text"
                                                            class="form-control">
                                                 </div>
@@ -133,7 +135,7 @@
                                                                   class="form-control" rows="3"></textarea>
                                                 </div>
                                             </div>
-                                            <button  class="btn btn-primary">
+                                            <button class="btn btn-primary">
                                                 <icon class="glyphicon glyphicon-envelope"></icon>
                                                 Enviar
                                             </button>
@@ -154,8 +156,6 @@
 
 
     </div>
-
-
 
 
 </template>
