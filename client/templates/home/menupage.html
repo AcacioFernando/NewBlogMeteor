@@ -1,4 +1,3 @@
-
 <template name="menuPage">
 
     <div class="content-right">
@@ -6,18 +5,21 @@
         <section class="sky-form">
             <h4>Mais lidas</h4>
 
-            <div class="post-grid1">
-                <div class="post-pic">
-                    <img src="https://content.halocdn.com/media/Default/games/halo-3/media/h3_010-68adc78167c54528b438982a40ff04a7.jpg"
-                         class="img-responsive" alt="">
-                </div>
-                <div class="post-pic-text">
-                    <h5><a href='/noticia'>Noticia 1</a></h5>
-                    <p>Noticia 1</p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
+            {{#each noticias}}
 
+                <div class="post-grid1">
+                    <div class="post-pic">
+                        <img src= "{{img}}"
+                             class="img-responsive" alt="">
+                    </div>
+                    <div class="post-pic-text">
+                        <h5><a href='/noticia/{{_id}}'>{{title}}</a></h5>
+                        <p>{{sub_title}}</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+            {{/each}}
         </section>
 
         <!-- Fim Mais Lidos -->

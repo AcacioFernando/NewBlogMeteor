@@ -1,0 +1,23 @@
+<template name="adminLayoutTamplate">
+
+    <div id="main" class="hold-transition skin-blue layout-boxed sidebar-mini">
+        <div class="wrapper">
+
+            <header>
+                {{> adminHeader}}
+            </header>
+
+            {{> menuAdmin}}
+
+            {{> yield}}
+
+            {{! Also a sidebar! }}
+            <footer class="main-footer">
+
+                {{> adminFooter}}
+
+            </footer>
+        </div>
+    </div>
+
+</template>

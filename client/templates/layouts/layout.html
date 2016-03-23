@@ -1,5 +1,9 @@
 <template name="layoutTamplate">
 
+    <head>
+        <title>...loading</title>
+        <link href='/css/user_style.css' rel='stylesheet' type='text/css'>
+    </head>
     <div id="main">
         <div class="conteudo">
             <div class="container">
@@ -7,9 +11,13 @@
                     {{> header}}
                 </header>
 
-                {{> yield}}
+                <div class="espaco-top">
 
-                {{> menuPage}}
+                    {{> yield}}
+
+                    {{> menuPage}}
+
+                </div>
             </div>
         </div>
         {{! Also a sidebar! }}

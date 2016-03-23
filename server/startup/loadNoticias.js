@@ -1,7 +1,6 @@
-
-if(Meteor.isServer) {
+if (Meteor.isServer) {
     Meteor.startup(function () {
-        if (Noticias.find().count() == 0) {
+        if (Noticias.find().count() <= 1) {
             Noticias.insert(
                 {
                     title: "Fallout 4",
@@ -51,10 +50,19 @@ if(Meteor.isServer) {
                     ],
                     createdAt: new Date()
                 }
-
             );
         }// end of for insert images
+
+        if (Categorias.find().count() <= 1) {
+            Categorias.insert(
+                {
+                    "nome_categoria": "Xbox"
+                }
+            );
+        }
+
         // count the images!
-        console.log("startup.js says: " + Noticias.find().count());
+        console.log("startup.js noticias says: " + Noticias.find().count());
+        console.log("startup.js categorias  says: " + Categorias.find().count());
     });
 }
