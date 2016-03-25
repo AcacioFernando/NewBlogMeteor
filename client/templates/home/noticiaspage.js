@@ -24,6 +24,7 @@ if (Meteor.isClient) {
         }
     });
 
+    
     Template.noticiasPage.rendered = function () {
         // initiate the carousel
 
