@@ -2,7 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f2e3215-ce8b-47fc-a192-514f11bb5eb2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/calender-arw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/chek1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/clock3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/clock_hour.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/clock_min.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/clock_sec.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/dot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/dot2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/dwn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/dwnld.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/flws.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/h1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img-not-found.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img_sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/jkr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/login-with-facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/menu_3_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/slid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/slid1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/slid2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/smile1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/smile2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sub.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tag3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tic2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/v2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/vid.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/icons.png" afterPath="$PROJECT_DIR$/public/images/icons.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/home/noticiaspage.html" afterPath="$PROJECT_DIR$/client/templates/home/noticiaspage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/home/noticiaspage.js" afterPath="$PROJECT_DIR$/client/templates/home/noticiaspage.js" />
     </list>
     <ignored path="NewBlogMeteor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,68 +76,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="noticiaspage.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="noticiaspage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/templates/home/noticiaspage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.77729255">
+              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/layouts/layout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminlayout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/layouts/adminlayout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loadNoticias.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/startup/loadNoticias.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/header/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/images/favicon.ico">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="noticiaspage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="noticiaspage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/home/noticiaspage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77068967">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state vertical-scroll-proportion="-6.5384617">
+              <caret line="10" column="46" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -103,8 +109,8 @@
       <file leaf-file-name="menupage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/home/menupage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state vertical-scroll-proportion="-8.384615">
+              <caret line="46" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -175,10 +181,10 @@
         <option value="$PROJECT_DIR$/client/templates/admin/cadastraradmin.js" />
         <option value="$PROJECT_DIR$/client/templates/home/categoriapage.html" />
         <option value="$PROJECT_DIR$/client/templates/home/pesquisapage.html" />
-        <option value="$PROJECT_DIR$/client/templates/home/noticiaspage.js" />
-        <option value="$PROJECT_DIR$/client/templates/home/noticiaspage.html" />
         <option value="$PROJECT_DIR$/public/css/user_style.css" />
         <option value="$PROJECT_DIR$/client/templates/layouts/layout.html" />
+        <option value="$PROJECT_DIR$/client/templates/home/noticiaspage.html" />
+        <option value="$PROJECT_DIR$/client/templates/home/noticiaspage.js" />
       </list>
     </option>
   </component>
@@ -247,43 +253,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewBlogMeteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewBlogMeteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewBlogMeteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewBlogMeteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notFound" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -327,28 +297,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewBlogMeteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewBlogMeteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -363,19 +311,19 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\acaci\WebstormProjects\NewBlogMeteor\public" />
-      <recent name="C:\Users\acaci\WebstormProjects\NewBlogMeteor\public\javascripts" />
-      <recent name="C:\Users\acaci\WebstormProjects\NewBlogMeteor\public\javascript" />
-      <recent name="C:\Users\acaci\WebstormProjects\NewBlogMeteor\client\templates\admin" />
-      <recent name="C:\Users\acaci\WebstormProjects\NewBlogMeteor\public\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\acaci\WebstormProjects\NewBlogMeteor\public\css" />
       <recent name="C:\Users\Acacio Oliveira\WebstormProjects\NewBlogMeteor\public" />
       <recent name="C:\Users\Acacio Oliveira\WebstormProjects\NewBlogMeteor\client\templates" />
       <recent name="C:\Users\Acacio Oliveira\WebstormProjects\NewBlogMeteor\client\templates\layouts" />
       <recent name="C:\Users\Acacio Oliveira\WebstormProjects\NewBlogMeteor\client\templates\home" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\acaci\WebstormProjects\NewBlogMeteor\public\images" />
+      <recent name="C:\Users\acaci\WebstormProjects\NewBlogMeteor\public" />
+      <recent name="C:\Users\acaci\WebstormProjects\NewBlogMeteor\public\javascripts" />
+      <recent name="C:\Users\acaci\WebstormProjects\NewBlogMeteor\public\javascript" />
+      <recent name="C:\Users\acaci\WebstormProjects\NewBlogMeteor\client\templates\admin" />
     </key>
   </component>
   <component name="RunManager" selected="Meteor.Run Meteor">
@@ -472,31 +420,37 @@
       <option name="project" value="LOCAL" />
       <updated>1458709897491</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Muitas mudanças">
+      <created>1458943947201</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1458943947201</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19253294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="775" y="16" width="370" height="985" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19180088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="775" y="16" width="370" height="985" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23343849" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48097253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23467231" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48097253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -832,14 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/home/noticiaspage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/user_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -852,14 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/home/menupage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -880,11 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/layouts/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -901,10 +834,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/home/menupage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.384615">
+          <caret line="46" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/home/noticiaspage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77068967">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/home/noticiaspage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77729255">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding />
         </state>
       </provider>
