@@ -26,9 +26,12 @@ if (Meteor.isClient) {
 
     Template.noticiasPage.rendered = function () {
         // initiate the carousel
+        setTimeout(function(){
+            $('.item').first().addClass('active');
+            $('.indicadores').first().addClass('active');
+            console.log("Set css");
+        }, 1);
 
-        $('.item').first().addClass('active');
-        $('.indicadores').first().addClass('active');
 
       //  $("#myCarousel li:first").addClass("active");
        // $("#myCarousel .item:first").addClass("active");
