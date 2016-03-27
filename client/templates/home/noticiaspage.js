@@ -23,7 +23,7 @@ if (Meteor.isClient) {
 
         }
     });
-    
+
 
 
     Template.noticiasPage.rendered = function () {
