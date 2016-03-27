@@ -38,7 +38,7 @@
                         <!-- form start -->
 
                         <div class="box-body">
-                            <form class="form-group" name="myForm">
+                            <form class="js_formnoticia form-group" name="myForm">
 
                                 <div class="form-group">
                                     <label for="labelTitulo">Título</label>
@@ -110,10 +110,10 @@
 
 
                                 <input type="file" class="click_target" multiple="true">
-                                <button class="clickme">Click me</button>
 
-
-                                <button type="submit">Upload</button>
+                                <div class="box-footer">
+                                    <button class="btn btn-primary">Submit</button>
+                                </div>
 
                                 <br>
 
@@ -127,5 +127,30 @@
 
         </section><!-- /.content -->
     </div>
+
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Nova categoria </h4>
+                </div>
+                <form class="js_savecategoria">
+                    <div class="modal-body">
+                        <input type="text" class="form-control" id="inputCategoria"
+                               name="inputCategoria"
+                               placeholder="Entre com a nova categoria... ">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        <button class="btn btn-primary">Salvar categoria</button>
+                    </div>
+                </form>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
 </template>
+
+
 
