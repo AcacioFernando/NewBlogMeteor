@@ -17,7 +17,7 @@ if (Meteor.isClient) {
 
     Template.cadastrarAdmin.rendered = function () {
         $('#content').ckeditor();
-    };
+    }; 
 
     Template.cadastrarAdmin.events({
 
