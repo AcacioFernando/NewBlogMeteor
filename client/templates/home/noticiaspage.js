@@ -6,8 +6,8 @@ if (Meteor.isClient) {
     console.log("noticiaspage.js says: " + Noticias.find().count());
 
     Template.noticiasPage.helpers({
-        noticias: Noticias.find({}, {sort: {createdOn: -1}}),
-        noticiasBanner: Noticias.find({}, {sort: {createdOn: -1}}, {limit: 3})
+        noticiasBanner: Noticias.find({}, {sort: {createdOn: -1}}, {limit: 3}),
+        noticias: Noticias.find({}, {sort: {createdOn: -1}})
     });
 
     Template.noticiasPage.events({
@@ -30,10 +30,13 @@ if (Meteor.isClient) {
             $('.item').first().addClass('active');
             $('.indicadores').first().addClass('active');
             console.log("Set css");
-        }, 1);
+        }, 0);
 
-
-      //  $("#myCarousel li:first").addClass("active");
-       // $("#myCarousel .item:first").addClass("active");
     };
+
+    Template.carouselItem.helpers({
+        isActive: function () {
+            return (this.index === 0) ? 'active': '';
+        }
+    });
 }

@@ -13,21 +13,7 @@
                 </ol>
                 <div class="carousel-inner">
                     {{#each noticiasBanner}}
-                        <div class="item">
-                            <img src="{{img}}" style="width:100%" class="img-responsive">
-                            <div class="container">
-                                <div class="carousel-caption">
-
-                                    <div class="bnr-info">
-                                        <h1>{{title}}</h1>
-                                        <h3>{{sub_title}}</h3>
-                                        <a href='/noticia/{{_id}}'>Leia mais</a>
-                                        <p></p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
+                        {{> carouselItem img=img title=title sub_title=sub_title _id=_id index=@index}}
                     {{/each}}
                 </div>
                 <a data-slide="prev" data-target="#myCarousel" class="left carousel-control">&lsaquo;<span
@@ -107,3 +93,22 @@
 
 </template>
 
+<template name="carouselItem">
+
+    <div class="item  {{isActive}}">
+        <img src="{{img}}" style="width:100%" class="img-responsive">
+        <div class="container">
+            <div class="carousel-caption">
+
+                <div class="bnr-info">
+                    <h1>{{title}}</h1>
+                    <h3>{{sub_title}}</h3>
+                    <a href='/noticia/{{_id}}'>Leia mais</a>
+                    <p></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</template>
