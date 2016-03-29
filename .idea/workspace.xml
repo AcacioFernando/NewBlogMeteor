@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f2e3215-ce8b-47fc-a192-514f11bb5eb2" name="Default" comment="Muitas mudanças">
+    <list default="true" id="8f2e3215-ce8b-47fc-a192-514f11bb5eb2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/startup/loadNoticias.js" afterPath="$PROJECT_DIR$/server/startup/loadNoticias.js" />
     </list>
     <ignored path="NewBlogMeteor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -544,7 +543,13 @@
       <option name="project" value="LOCAL" />
       <updated>1459279633528</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Muitas mudanças">
+      <created>1459279817692</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1459279817692</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
