@@ -8,7 +8,7 @@
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     {{#each noticiasBanner}}
-                        <li class="indicadores" data-target="#myCarousel" data-slide-to="{{index}}"></li>
+                        {{> carouselIndicators index=@index}}
                     {{/each}}
                 </ol>
                 <div class="carousel-inner">
@@ -110,5 +110,11 @@
             </div>
         </div>
     </div>
+
+</template>
+
+<template name="carouselIndicators">
+
+    <li class="indicadores {{isActive}}" data-target="#myCarousel" data-slide-to="{{index}}"></li>
 
 </template>

@@ -24,19 +24,16 @@ if (Meteor.isClient) {
         }
     });
 
-    Template.noticiasPage.rendered = function () {
-        // initiate the carousel
-        setTimeout(function(){
-            $('.item').first().addClass('active');
-            $('.indicadores').first().addClass('active');
-            console.log("Set css");
-        }, 0);
-
-    };
 
     Template.carouselItem.helpers({
         isActive: function () {
             return (this.index === 0) ? 'active': '';
+        }
+    });
+
+    Template.carouselIndicators.helpers({
+        isActive: function () {
+            return (this.index === 0) ? 'active': ' ';
         }
     });
 }
