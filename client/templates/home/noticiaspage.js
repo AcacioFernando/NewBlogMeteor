@@ -13,8 +13,13 @@ if (Meteor.isClient) {
     Template.noticiasPage.events({
 
         'click .js-gostei': function (event) {
+            var timeStart = performance.now();
             var gostei = this.gostei + 1;
-            Noticias.update({_id: this._id}, {$set: {gostei: gostei}});
+            Noticias.update({_id: this._id}, {$set: {gostei: gostei}}, function( error, result) {
+                var timeEnd = performance.now();
+                var time = timeEnd - timeStart;
+                console.log ( "Tempo event: "+ time ); //info about what went wrong
+            });
 
         },
         'click .js-nao-gostei': function (event) {
@@ -36,4 +41,9 @@ if (Meteor.isClient) {
             return (this.index === 0) ? 'active': ' ';
         }
     });
+
+    Template.carouselIndicators.rendered = function () {
+        console.log("carouselIndicators");
+    };
+
 }
