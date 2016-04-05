@@ -61,8 +61,7 @@ if (Meteor.isServer) {
                 }
             );
         }
-
-        // count the images!
+    // count the images!
         console.log("startup.js noticias says: " + Noticias.find().count());
         console.log("startup.js categorias  says: " + Categorias.find().count());
     });
