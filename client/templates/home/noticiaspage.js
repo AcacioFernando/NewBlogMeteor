@@ -37,13 +37,10 @@ if (Meteor.isClient) {
     });
 
     Template.carouselIndicators.helpers({
-        isActive: function () {
+        isActive: function () {g
             return (this.index === 0) ? 'active': ' ';
         }
     });
 
-    Template.carouselIndicators.rendered = function () {
-        console.log("carouselIndicators");
-    };
 
 }
