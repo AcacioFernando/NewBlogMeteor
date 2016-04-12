@@ -37,7 +37,7 @@ if (Meteor.isClient) {
     });
 
     Template.carouselIndicators.helpers({
-        isActive: function () {g
+        isActive: function () {
             return (this.index === 0) ? 'active': ' ';
         }
     });

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8f2e3215-ce8b-47fc-a192-514f11bb5eb2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/home/noticiaspage.html" afterPath="$PROJECT_DIR$/client/templates/home/noticiaspage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/home/noticiaspage.js" afterPath="$PROJECT_DIR$/client/templates/home/noticiaspage.js" />
     </list>
     <ignored path="NewBlogMeteor.iws" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="noticiaspage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/templates/home/noticiaspage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39118457">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.5013774">
+              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -966,8 +965,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/home/noticiaspage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39118457">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.5013774">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
           <folding />
         </state>
       </provider>
