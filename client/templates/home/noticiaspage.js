@@ -13,8 +13,8 @@ if (Meteor.isClient) {
     Template.noticiasPage.events({
         'click .js-gostei': function (event) {
             startTime();
+            var gostei = this.gostei + 1;
             Noticias.update({_id: this._id}, {$set: {gostei: gostei}}, function( error, result) {
-                var gostei = this.gostei + 1;
                 endTime();
             });
 
