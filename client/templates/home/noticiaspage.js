@@ -6,7 +6,7 @@ if (Meteor.isClient) {
     console.log("noticiaspage.js says: " + Noticias.find().count());
 
     Template.noticiasPage.helpers({
-        noticiasBanner: Noticias.find({}, {sort: {createdOn: -1}}, {limit: 3}),
+        noticiasBanner: Noticias.find({}, {sort: {createdOn: -1}}, {limit: 2}),
         noticias: Noticias.find({}, {sort: {createdOn: -1}})
     });
 
