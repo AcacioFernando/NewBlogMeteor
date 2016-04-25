@@ -30,9 +30,7 @@
     <!-- Conteúdo do Blog -->
     <div class="content-left">
         <!-- Inicio Lista de Notícias -->
-
         {{#each noticias}}
-
             <div class="sec_1">
                 <div class="sec_1 grids">
                     <div class="post6">
@@ -41,7 +39,6 @@
                                 <img src="{{img}}"
                                      class="img-responsive post6-pic-img" alt="">
                             </div>
-
                             <div class=" col-md-6 post6-pic-info">
 
                                 <div class="info-box bg-yellow">
@@ -50,7 +47,6 @@
                                         <span class="info-box-text">{{category}}</span>
                                     </div><!-- /.info-box-content -->
                                 </div>
-
                                 <h3><a href='/noticia/{{_id}}'>{{title}}</a></h3>
                                 <p>{{sub_title}}</p>
                                 <div class="comments cmnt3">
@@ -62,12 +58,10 @@
                                         </li>
                                         <li><a class="js-nao-gostei"><span
                                                 class="gostei glyphicon glyphicon-thumbs-down"
-                                                aria-hidden="true"></span>{{nao_gostei}}
-                                        </a>
+                                                aria-hidden="true"></span>{{nao_gostei}} </a>
                                         </li>
                                         <li><a href="#"><span class="glyphicon glyphicon-comment"
-                                                              aria-hidden="true"></span>{{comentarios.length}}
-                                        </a>
+                                                              aria-hidden="true"></span>{{comentarios.length}}</a>
                                         </li>
                                         <li><span class="glyphicon glyphicon-eye-open"
                                                   aria-hidden="true"></span> {{numero_clicks}}
@@ -76,13 +70,14 @@
                                                   aria-hidden="true"></span>{{date}}
                                         </li>
                                     </ul>
+                                    <script type="text/javascript">
+                                        console.log("Tempo de carregamento: "+ performance.now());
+                                    </script>
                                 </div>
                             </div>
                         </div>
-                        <div class="clearfix"></div>
                     </div>
                     <div class="clearfix"></div>
-                    <br/>
                 </div>
             </div>
         {{/each}}

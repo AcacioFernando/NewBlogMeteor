@@ -4,6 +4,22 @@
         <title>Hero</title>
         <link rel='icon' href='/favicon.ico'>
         <link href='/css/user_style.css' rel='stylesheet' type='text/css'>
+
+        <script type="text/javascript">
+            var t0;
+            var t1;
+
+            function startTime() {
+                t0 = performance.now();
+            }
+            function endTime() {
+                t1 = performance.now();
+                var tempo = t1-t0;
+                console.log("Tempo de execução: " + tempo);
+            }
+
+        </script>
+
     </head>
 
     <div id="main">

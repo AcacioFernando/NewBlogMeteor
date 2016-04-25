@@ -11,14 +11,11 @@ if (Meteor.isClient) {
     });
 
     Template.noticiasPage.events({
-
         'click .js-gostei': function (event) {
-            var timeStart = performance.now();
-            var gostei = this.gostei + 1;
+            startTime();
             Noticias.update({_id: this._id}, {$set: {gostei: gostei}}, function( error, result) {
-                var timeEnd = performance.now();
-                var time = timeEnd - timeStart;
-                console.log ( "Tempo event: "+ time ); //info about what went wrong
+                var gostei = this.gostei + 1;
+                endTime();
             });
 
         },

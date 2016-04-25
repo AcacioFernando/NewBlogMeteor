@@ -19,10 +19,8 @@ if (Meteor.isClient) {
 
         },
         'submit .js-comentario': function (event) {
-
             // Prevent default browser form submit
             event.preventDefault();
-
             // Get value from form element
             var textComentario = event.target.textComentario.value;
             var userComentario = event.target.userComentario.value;
@@ -33,11 +31,10 @@ if (Meteor.isClient) {
                 comment: textComentario,
                 date: new Date()
             };
-
             // Insert a task into the collection
-            Noticias.update({_id: this._id}, {$push: {comments: comments}});
-
-
+            Noticias.update({_id: this._id}, {$push: {comments: comments}}, function( error, result) {
+                endTime();
+            });
             // Clear form
             event.target.userComentario.value = "";
             event.target.textComentario.value = "";
