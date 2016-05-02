@@ -19,6 +19,7 @@ if (Meteor.isClient) {
 
         },
         'submit .js-comentario': function (event) {
+            startTime();
             // Prevent default browser form submit
             event.preventDefault();
             // Get value from form element
