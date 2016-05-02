@@ -47,7 +47,7 @@
                                         <span class="info-box-text">{{category}}</span>
                                     </div><!-- /.info-box-content -->
                                 </div>
-                                <h3><a href='/noticia/{{_id}}'>{{title}}</a></h3>
+                                <h3><a class="mylink" href='/noticia/{{_id}}'>{{title}}</a></h3>
                                 <p>{{sub_title}}</p>
                                 <div class="comments cmnt3">
                                     <ul>
@@ -84,7 +84,13 @@
         <!-- Fim Lista de Notícias -->
     </div>
     <!-- Fim Conteúdo do Blog -->
+    <script type="text/javascript">
 
+        $(document).on("click",".mylink",function(){
+            startTime();
+        });
+
+    </script>
 
 </template>
 
